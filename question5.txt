@@ -1,0 +1,27 @@
+Geometric Viewpoint:
+
+- The volume scaling factor of the transformation denoted by A is det(A)∣.
+
+- If the transformation is negative, it also flips the orientation, much like a mirror flip.
+
+- There is no distinct inverse for zero; instead, space is compressed into a smaller dimension.
+
+Algebraic Viewpoint:
+
+It is defined for alternating (row swap flips sign), multilinear (linear in each row), and square matrices.
+
+- All determinant definitions are essentially the same due to their uniqueness.
+
+My preferred definition of a determinant is: 
+
+A unique combination of multilinearity, alternation, and det(I)=1 determines the determinant, which is the signed volume scaling factor.
+
+usecases:
+
+- Matrix inversion
+
+- ML transformations known as Jacobian determinants
+
+- Eigenvalue formulas
+
+- In statistics, determining feature independence and covariance
